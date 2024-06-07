@@ -15,5 +15,5 @@ if __name__ == "__main__":
         if user_input.lower() in ['', 'exit', 'quit']:
             break
         
-        response = agent.chat("user_input")
+        response = agent.chat(user_input)
         print(response)
